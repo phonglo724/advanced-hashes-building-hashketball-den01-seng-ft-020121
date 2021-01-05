@@ -125,6 +125,6 @@ end
 
 def player_data(player_name)
   game_hash.each do |key, value|
-    return key[:players][0]
+    return key == value
   end
 end
