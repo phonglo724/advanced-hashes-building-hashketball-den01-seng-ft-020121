@@ -119,6 +119,12 @@ def game_hash
  }
 end
 
+def top_level_keys(top_keys)
+  game_hash.each do |key, value|
+    return key
+  end
+end
+
 def team_level_keys
   game_hash.each do |key|
     return key
