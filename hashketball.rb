@@ -117,15 +117,10 @@ def game_hash
  }
 end
 
-#def top_level_keys(top_keys)
- # game_hash.each do |key, value|
-  #  if value == top_keys
-   #   return top_keys
-#  end
-#end
-
 def team_level_keys
   game_hash.each do |key|
     return key
   end
 end
+
+def player_data
