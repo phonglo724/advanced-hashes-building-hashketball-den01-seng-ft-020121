@@ -122,3 +122,6 @@ def team_level_keys
     return key
   end
 end
+
+def player_data(player_name)
+  game_hash[]
