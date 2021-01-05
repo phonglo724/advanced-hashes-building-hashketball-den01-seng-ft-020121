@@ -122,7 +122,3 @@ def team_level_keys
     return key
   end
 end
-
-def player_data
-  game_hash.each do |key, value|
-    
