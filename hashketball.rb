@@ -124,9 +124,9 @@ def team_level_keys
 end
 
 
-  return nil
-enddef players_name
+def players_name
   game_hash.each do |key, value|
     if value[:players]
       return "Alan Anderson"
   end
+end
