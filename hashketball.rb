@@ -27,7 +27,8 @@ def game_hash
        blocks: 12,
        slam_dunks: 7
      },
-       "Brook Lopez" => {
+     {
+       player_name: "Brook Lopez",
        number: 11,
        shoe: 17,
        points: 17,
@@ -37,7 +38,8 @@ def game_hash
        blocks: 1,
        slam_dunks: 15         
      },
-       "Mason Plumlee" => {
+     {
+       player_name: "Mason Plumlee",
        number: 1,
        shoe: 19,
        points: 26,
