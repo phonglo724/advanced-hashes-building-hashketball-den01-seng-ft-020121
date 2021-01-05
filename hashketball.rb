@@ -121,7 +121,8 @@ end
 
 def top_level_keys(top_keys)
   game_hash.each do |key, value|
-    return key
+    if value == top_keys
+      return top_keys
   end
 end
 
