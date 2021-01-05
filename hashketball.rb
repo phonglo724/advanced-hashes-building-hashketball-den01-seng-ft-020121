@@ -124,4 +124,5 @@ def team_level_keys
 end
 
 def player_data(player_name)
-  game_hash[]
+  game_hash[:players]
+end
