@@ -6,7 +6,7 @@ def game_hash
      team_name: "Brooklyn Nets",
      colors: ["Black","White"],
      players: [{
-       "Alan Andersen" => {
+       "Alan Anderson" => {
        number: 0,
        shoe: 16,
        points: 22,
