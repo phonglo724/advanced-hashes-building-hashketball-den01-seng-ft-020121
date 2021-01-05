@@ -123,8 +123,8 @@ def team_level_keys
   end
 end
 
-def player_data(player_name)
+def players_name
   game_hash.each do |key, value|
-    return key == value
+    return value[:players]
   end
 end
